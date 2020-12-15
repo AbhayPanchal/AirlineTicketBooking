@@ -1,0 +1,99 @@
+<!--
+    Name: Abhay Panchal
+    Student Number : 000813104
+    I Abhay Panchal Certify that this is my own Work!!
+    Purpose: This Page use to display the form for canceling the ticket!
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="js/script.js"></script>
+    <title>Abhay's Airline Center</title>
+    <style>
+        .h{
+            text-align: center;
+            color: rgb(67, 67, 124);
+            padding-top: 10px;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+
+        .bookform2{
+            text-align: center;
+            margin-top: 15px;
+            padding: 15px;
+        }
+
+        #submit{
+            margin-top: 11px;
+        }
+
+        .footer{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="topnav">
+            <ul><li>User : <span id="name"></span></li></ul>
+        </div>
+        <div class="logo">
+            <img src="../img/header.png" alt="logo">
+        </div>
+        <div class="navigation">
+            <ul> 
+                <li> <a href="#about">About us</a></li>
+                <li> <a href="../php/history.php">History</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="h">
+            <h1> Cancel Ticket</h1>
+
+        </div>
+
+        <div>
+            <form method="POST" class="bookform2" id="bookform2" action="../php/cancel.php">
+                <div>
+                    <label>Fullname</label>
+                    <span style="margin-left: 10px;"><input type="text" name="Fullname" class="Fullname"></span>
+                </div>
+                <div>
+                    <label>UserID</label>
+                    <span style="margin-left: 10px;"><input type="text" name="id" class="Fullname"></span>
+                </div>
+                <div>
+                    <label>Email</label>
+                    <span style="margin-left: 33px;"><input type="email" name="Remail" class="Remail"></span>
+                </div>
+                <div>
+                    <span><label>Reason</label></span>
+                    <span><textarea name="reason" id="reason"></textarea></span>
+                </div>
+                <div>
+                    <span style="color: red;"><p>30% money will be deducted if you cancel your ticket.</p></span>
+                </div>
+                
+                <input type="submit" name="submit" id="submit" value="Cancel Ticket" >
+             </form>
+        </div>
+    </main>
+    <footer class="footer" id="footer">
+        <div class="logo" id="logo">
+            <img src="img/header.png" alt="logo">
+        </div>
+        <div id="about">
+            <p>
+                We are here to help you find best airline to travel!! Login to start!!
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

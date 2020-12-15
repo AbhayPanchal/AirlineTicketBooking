@@ -1,0 +1,119 @@
+/**
+
+Name: Abhay Panchal
+Student Number : 000813104
+I Abhay Panchal Certify that this is my own Work!!
+Purpose: This css file use to style the webpages.
+
+*/
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.logo{
+    grid-column: 2;
+}
+
+.topnav{
+    grid-column: 1;  
+    padding-top: 80px;
+    text-align: left;
+    
+}
+
+.topnav ul{
+    list-style-type: none;
+}
+
+.topnav ul li{
+    display: inline;
+}
+
+.topnav ul li a{
+    padding: 2px;
+    border-bottom-style: none;
+    text-decoration: none;
+    border: 1px solid blue;
+}
+
+.navigation{
+    padding: 10px;
+    padding-top: 80px;
+    text-align: right;
+}
+
+.navigation ul{
+    list-style-type: none;
+}
+
+.navigation ul li{
+    display: inline;
+    padding: 5px;
+}
+
+.navigation ul li a{
+    padding: 3px;
+    border-bottom-style: none;
+    text-decoration: none;
+    border: 1px solid blue;
+}
+
+.library{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.library img{
+    grid-column: 2;
+}
+
+.booking{
+    display: grid;
+    padding-top: 20px;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+
+.booking fieldset{
+    border: 2.4px solid black;
+    grid-column: 2;
+    padding: 8px;
+}
+
+.bookform{
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.bookform button{
+    padding-top: 7px;
+    margin-top: 10px;
+    margin-left: 350px;
+}
+
+.bookform input, select{
+    padding: 5px;
+    margin-left: 15px;
+}
+
+#submit{
+    text-align: center;
+}
+
+.legend{
+    padding:3px;
+	margin-left: 3px;
+	
+}
+
+footer{
+    padding-top: 30px;
+    text-align: center;
+}
+
+
